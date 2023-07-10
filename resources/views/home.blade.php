@@ -16,8 +16,8 @@
     <body>
         
         <ul>
-            @foreach ($names as $name)
-                <li>username:  {{ $name }}</li>
+            @foreach ($data as $dat)
+                <li>username:  {{ $dat -> name }}</li>
             @endforeach
         </ul>
 
