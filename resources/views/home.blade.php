@@ -9,9 +9,19 @@
     
     <header>
         <h1>
-            hello world!!
+            hello {{ $utente }}
         </h1>
     </header>
+
+    <body>
+        
+        <ul>
+            @foreach ($names as $name)
+                <li>username:  {{ $name }}</li>
+            @endforeach
+        </ul>
+
+    </body>
 
 
 </body>
