@@ -7,6 +7,12 @@
 </head>
 <body>
 
+    <header>
+        <h1>
+            hello {{ $utente }}
+        </h1>
+    </header>
+
     <body>
         
         <ul>
