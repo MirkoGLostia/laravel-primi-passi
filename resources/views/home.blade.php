@@ -6,18 +6,14 @@
     <title>laravel test</title>
 </head>
 <body>
-    
-    <header>
-        <h1>
-            hello {{ $utente }}
-        </h1>
-    </header>
 
     <body>
         
         <ul>
-            @foreach ($data as $dat)
-                <li>username:  {{ $dat -> name }}</li>
+            @foreach ($nomi as $nome)
+
+            <li> user: {{ $nome }}</li>
+                
             @endforeach
         </ul>
 

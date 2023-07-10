@@ -18,8 +18,9 @@ Route::get('/', function () {
     $utente = 'User';
 
     $data = [
-        'name' => 'alex'
+        "nomi" => ["mirko", "massimo"],
+        
     ];
 
-    return view('home', compact('utente'), $data);
+    return view('home', $data);
 });
