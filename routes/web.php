@@ -21,4 +21,9 @@ Route::get('/', function () {
     ];
 
     return view('home', $data);
-});
+})->name('home');
+
+Route::get('/another', function() {
+
+    return view('another');
+})->name('another');

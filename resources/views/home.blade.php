@@ -23,6 +23,8 @@
             @endforeach
         </ul>
 
+        <a href=" {{ route('another') }}">another</a>
+
     </body>
 
 
